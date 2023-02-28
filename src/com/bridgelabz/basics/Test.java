@@ -8,6 +8,8 @@ public class Test {
 
         System.out.println("main starting");
 
+
+
         HelloWorld obj1 = new HelloWorld(); // class Class object is generated and stores in heap area
 
         HelloWorld obj2 = new HelloWorld(); //
@@ -26,7 +28,7 @@ public class Test {
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-
+        System.out.println("main ending");
 
     }
 }
