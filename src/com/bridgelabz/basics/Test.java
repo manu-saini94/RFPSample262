@@ -6,6 +6,8 @@ public class Test {
 
     public static void main(String[] args) {
 
+        System.out.println("main starting");
+
         HelloWorld obj1 = new HelloWorld(); // class Class object is generated and stores in heap area
 
         HelloWorld obj2 = new HelloWorld(); //
