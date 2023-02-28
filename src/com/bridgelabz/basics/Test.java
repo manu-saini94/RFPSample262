@@ -5,10 +5,8 @@ import java.lang.reflect.Method;
 public class Test {
 
     public static void main(String[] args) {
-
-        System.out.println("main starting modified at remote");
-
-
+        
+        System.out.println("main starting modified at local");
 
         HelloWorld obj1 = new HelloWorld(); // class Class object is generated and stores in heap area
 
